@@ -1,0 +1,8 @@
+language: shell
+
+services:
+  - docker
+image: docker:latest  
+script:
+  - docker build -t firstsampleapp:1 .
+  
